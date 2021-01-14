@@ -1,0 +1,44 @@
+{
+    // Theme Customizations
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {
+        "[Monokai]": {
+            "editor.selectionHighlightBorder": "#ffffffff",
+            "editor.findMatchHighlightBackground": "#db68988a",
+            "editor.findMatchBackground": "#d12945af",
+            "editor.findMatchHighlightBorder": "#ffffffff",
+            "editor.findMatchBorder": "#ff0000",
+        },
+        "[Monokai Pro (Filter Spectrum)]": {
+            "editor.selectionHighlightBorder": "#ffffffff",
+            "editor.findMatchHighlightBackground": "#cf3475af",
+            "editor.findMatchBackground": "#cf3475af",
+            "editor.findMatchHighlightBorder": "#ffffffff",
+            "editor.findMatchBorder": "#ff0000",
+            //"scrollbarSlider.background": "#ff0000"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Monokai Pro (Filter Spectrum)]": {
+            "strings": "#c0c050"
+        }
+    },
+    "editor.fontSize": 16,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "extensions.ignoreRecommendations": false,
+    "explorer.confirmDelete": true,
+    "window.zoomLevel": 0,
+    // "python.pythonPath": "/usr/local/bin/python3",
+    // "terminal.integrated.shellArgs.osx": []
+    // "editor.formatOnSave": true,
+    // "python.formatting.provider": "black",
+    // "python.formatting.blackArgs": [
+    //     "--line-length=110"
+    // ]
+
+}

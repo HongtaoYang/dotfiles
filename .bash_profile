@@ -15,6 +15,13 @@ unset file;
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend;
 
+# Unlimited bash history
+export HISTSIZE=-1
+export HISTFILESIZE=-1
+
+# ignore duplicates in bash history
+export HISTCONTROL=ignoreboth:erasedups
+
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
 
